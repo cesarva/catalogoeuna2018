@@ -1,0 +1,479 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Cat&#225;logo 2018</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "6";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "files";
+    HTML5_PUBLICATION = false;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "Catálogo 2018";
+
+        CURRENT_VERSION = "2.8.29";
+
+        LANGS = ['es'];
+        PUBLICATION_TYPE = "book";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#40C6FF,endColorstr=#40C6FF);
+	zoom:1;
+	
+	background:rgb(64,198,255);
+	background:rgba(64,198,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-5.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;6 / 208</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-7.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-5.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">6 / 208</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-7.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0006.png" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:95.202020%;left:51.960784%;width:2.614379%;height:2.272727%;font-size:0.600000em;color:#FFFFFF;font-family:Fira Sans;">
+							<i>-6-</i>
+						</p>
+						<a class="linkTextItem testString internalLink" href="./page-92.html" target="_self"  style="top:9.343434%;left:10.294118%;width:31.372549%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Las seis cuerdas m&#225;gicas (Tomos I y II)
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-92.html" target="_self"  style="top:9.343434%;left:91.503268%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							92
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-84.html" target="_self"  style="top:11.616162%;left:10.294118%;width:31.535948%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Literatura en el div&#225;n del Psicoan&#225;lisis
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-84.html" target="_self"  style="top:11.616162%;left:91.339869%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							84
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-66.html" target="_self"  style="top:14.015152%;left:10.294118%;width:69.281046%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Los cl&#225;sicos que hacen cl&#225;sicos: La importancia de los cl&#225;sicos y de la tradici&#243;n en la
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-66.html" target="_self"  style="top:15.656566%;left:10.294118%;width:33.823529%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							configuraci&#243;n del canon cultura medieval
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-66.html" target="_self"  style="top:14.772727%;left:91.339869%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							66
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-50.html" target="_self"  style="top:17.929293%;left:10.294118%;width:22.385621%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Los Ng&#246;bes del Pac&#237;fico Sur
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-50.html" target="_self"  style="top:17.929293%;left:91.339869%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							50
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-153.html" target="_self"  style="top:20.075758%;left:10.294118%;width:19.934641%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Leyendas costarricenses
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-153.html" target="_self"  style="top:20.075758%;left:90.686275%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							153
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-137.html" target="_self"  style="top:22.348485%;left:10.294118%;width:8.823529%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Luc&#237;a Jerez
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-137.html" target="_self"  style="top:22.348485%;left:90.849673%;width:2.450980%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							137
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-125.html" target="_self"  style="top:24.621212%;left:10.294118%;width:26.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Manual de gesti&#243;n terminol&#243;gica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-125.html" target="_self"  style="top:24.621212%;left:90.686275%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							125
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-37.html" target="_self"  style="top:27.020202%;left:10.294118%;width:53.267974%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Manual de hematolog&#237;a y qu&#237;mica cl&#237;nica en medicina veterinaria
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-37.html" target="_self"  style="top:27.020202%;left:91.666667%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							37
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-29.html" target="_self"  style="top:29.292929%;left:10.294118%;width:29.901961%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Manual de laboratorio de edafolog&#237;a
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-29.html" target="_self"  style="top:29.292929%;left:91.503268%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							29
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-116.html" target="_self"  style="top:31.565657%;left:10.294118%;width:31.535948%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Mapas de Costa Rica y Am&#233;rica Central
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-116.html" target="_self"  style="top:31.565657%;left:90.849673%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							116
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-183.html" target="_self"  style="top:33.964646%;left:10.294118%;width:13.398693%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Mar&#237;a Zambrano
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-183.html" target="_self"  style="top:33.964646%;left:90.686275%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							183
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-189.html" target="_self"  style="top:36.237374%;left:10.294118%;width:6.209150%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Mariola
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-189.html" target="_self"  style="top:36.237374%;left:90.522876%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							189
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-167.html" target="_self"  style="top:38.510101%;left:10.294118%;width:15.196078%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							M&#225;s Abajo del Aire
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-167.html" target="_self"  style="top:38.510101%;left:90.849673%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							167
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-40.html" target="_self"  style="top:40.782828%;left:10.294118%;width:20.261438%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Masaje cl&#225;sico deportivo
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-40.html" target="_self"  style="top:40.782828%;left:91.339869%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							40
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-36.html" target="_self"  style="top:43.181818%;left:10.294118%;width:40.196078%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							M&#233;todos estad&#237;sticos para las ciencias biol&#243;gicas
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-36.html" target="_self"  style="top:43.181818%;left:91.503268%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							36
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-173.html" target="_self"  style="top:45.454545%;left:10.294118%;width:22.712418%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Mientras arden las cumbres
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-173.html" target="_self"  style="top:45.454545%;left:90.849673%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							173
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-71.html" target="_self"  style="top:47.727273%;left:10.294118%;width:51.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Militarizaci&#243;n de la planificaci&#243;n estatal-sectorial en Costa Rica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-71.html" target="_self"  style="top:47.727273%;left:91.666667%;width:1.633987%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							71
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-64.html" target="_self"  style="top:50.000000%;left:10.294118%;width:62.091503%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Moradas y discursos. Cultura y pol&#237;tica en la Costa Rica de los siglos XIX y XX
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-64.html" target="_self"  style="top:50.000000%;left:91.339869%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							64
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-93.html" target="_self"  style="top:52.398990%;left:10.294118%;width:40.522876%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							M&#250;sica costarricense in&#233;dita de trompeta y piano
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-93.html" target="_self"  style="top:52.398990%;left:91.503268%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							93
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-126.html" target="_self"  style="top:54.671717%;left:10.294118%;width:53.758170%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Noir sur blanc (Niveau I) (To Have it in Black and White-First level)
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-126.html" target="_self"  style="top:54.671717%;left:90.686275%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							126
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-127.html" target="_self"  style="top:56.944444%;left:10.294118%;width:20.261438%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Noir sur blanc (Niveau Ii)
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-127.html" target="_self"  style="top:56.944444%;left:90.849673%;width:2.450980%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							127
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-139.html" target="_self"  style="top:59.343434%;left:10.294118%;width:26.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Omar Dengo. Escritos y discursos
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-139.html" target="_self"  style="top:59.343434%;left:90.686275%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							139
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-41.html" target="_self"  style="top:61.616162%;left:10.294118%;width:67.320261%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Perspectiva epidemiol&#243;gica y socioinstitucional del c&#225;ncer de mama en Costa Rica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-41.html" target="_self"  style="top:61.616162%;left:91.503268%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							41
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-72.html" target="_self"  style="top:63.888889%;left:10.294118%;width:38.725490%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Perspectivas complejas, seguridad, inseguridad
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-72.html" target="_self"  style="top:63.888889%;left:91.666667%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							72
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-43.html" target="_self"  style="top:66.161616%;left:10.294118%;width:76.470588%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Perspectivas Interdisciplinarias: riesgo y vulnerabilidad ante fen&#243;menos hidrometeorol&#243;gicos
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-43.html" target="_self"  style="top:66.161616%;left:91.503268%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							43
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-73.html" target="_self"  style="top:68.560606%;left:10.294118%;width:16.503268%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Planimetr&#237;a Forense
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-73.html" target="_self"  style="top:68.560606%;left:91.666667%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							73
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-176.html" target="_self"  style="top:70.833333%;left:10.294118%;width:24.509804%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Porque me duele si me quedo
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-176.html" target="_self"  style="top:70.833333%;left:90.849673%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							176
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-26.html" target="_self"  style="top:73.106061%;left:10.294118%;width:37.418301%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Pr&#225;cticas y Tareas de Probabilidad Estad&#237;stica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-26.html" target="_self"  style="top:73.106061%;left:91.503268%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							26
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-54.html" target="_self"  style="top:75.505051%;left:10.294118%;width:51.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Privatizaci&#243;n de la salud p&#250;blica en Costa Rica y Am&#233;rica Latina
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-54.html" target="_self"  style="top:75.505051%;left:91.503268%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							54
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-15.html" target="_self"  style="top:77.777778%;left:10.294118%;width:73.202614%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Procesos industriales. Manual de laboratorio para el an&#225;lisis qu&#237;mico y control de calidad
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-15.html" target="_self"  style="top:77.777778%;left:91.666667%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							15
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-102.html" target="_self"  style="top:80.050505%;left:10.294118%;width:35.784314%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Promesas paradis&#237;acas: infiernos terrenales
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-102.html" target="_self"  style="top:80.050505%;left:90.686275%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							102
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-77.html" target="_self"  style="top:82.323232%;left:10.294118%;width:47.058824%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Prueba predictoria del &#233;xito y el fracaso escolar &#168;Peques”
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-77.html" target="_self"  style="top:82.323232%;left:91.666667%;width:1.633987%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							77
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-16.html" target="_self"  style="top:84.722222%;left:10.294118%;width:25.490196%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Qu&#237;mica anal&#237;tica experimental
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-16.html" target="_self"  style="top:84.722222%;left:91.503268%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							16
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-152.html" target="_self"  style="top:86.994949%;left:10.294118%;width:34.967320%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Renacer en el tiempo: creaci&#243;n cibern&#233;tica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-152.html" target="_self"  style="top:86.994949%;left:90.686275%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							152
+						</a>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-2.html">2</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-3.html">3</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-4.html">4</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-5.html">5</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-6.html">6</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-7.html">7</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-10.html">10</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-11.html">11</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-12.html">12</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-208.html">208</a>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

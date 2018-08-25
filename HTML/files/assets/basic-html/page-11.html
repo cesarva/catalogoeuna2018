@@ -1,0 +1,586 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Cat&#225;logo 2018</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "11";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "files";
+    HTML5_PUBLICATION = false;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "Catálogo 2018";
+
+        CURRENT_VERSION = "2.8.29";
+
+        LANGS = ['es'];
+        PUBLICATION_TYPE = "book";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#40C6FF,endColorstr=#40C6FF);
+	zoom:1;
+	
+	background:rgb(64,198,255);
+	background:rgba(64,198,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-10.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;11 / 208</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-12.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-10.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">11 / 208</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-12.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0011.png" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:95.202020%;left:51.797386%;width:3.267974%;height:2.272727%;font-size:0.600000em;color:#FFFFFF;font-family:Fira Sans;">
+							<i>-11-</i>
+						</p>
+						<p class="textItem testString" style="top:13.636364%;left:6.535948%;width:19.771242%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							N&#233;stor F. Chaves Barrantes
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-28.html" target="_self"  style="top:13.636364%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							28
+						</a>
+						<p class="textItem " style="top:13.636364%;left:55.882353%;width:14.379085%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Sergio Mas&#237;s Olivas
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-166.html" target="_self"  style="top:13.636364%;left:83.823529%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							166
+						</a>
+						<p class="textItem " style="top:13.636364%;left:86.274510%;width:0.653595%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							-
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-167.html" target="_self"  style="top:13.636364%;left:86.928105%;width:2.287582%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							167
+						</a>
+						<p class="textItem " style="top:13.636364%;left:89.215686%;width:0.653595%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							-
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-172.html" target="_self"  style="top:13.636364%;left:89.705882%;width:2.941176%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							172-
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-179.html" target="_self"  style="top:13.636364%;left:92.647059%;width:2.287582%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							179
+						</a>
+						<p class="textItem " style="top:15.782828%;left:6.535948%;width:13.235294%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							N&#233;stor Zeled&#243;n G.
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-158.html" target="_self"  style="top:15.782828%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							158
+						</a>
+						<p class="textItem " style="top:15.782828%;left:55.882353%;width:13.398693%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Sharon Woodburn
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-77.html" target="_self"  style="top:15.782828%;left:83.823529%;width:1.470588%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							77
+						</a>
+						<p class="textItem " style="top:17.929293%;left:6.535948%;width:12.745098%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Nidia Gonz&#225;lez A.
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-80.html" target="_self"  style="top:17.929293%;left:33.986928%;width:1.960784%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							80
+						</a>
+						<p class="textItem " style="top:17.929293%;left:55.882353%;width:12.418301%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Sherry E. Gapper
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-125.html" target="_self"  style="top:17.929293%;left:83.823529%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							125
+						</a>
+						<p class="textItem " style="top:20.202020%;left:55.882353%;width:19.117647%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Silvia Elena Rojas Herrera
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-49.html" target="_self"  style="top:20.202020%;left:83.823529%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							49
+						</a>
+						<p class="textItem " style="top:22.474747%;left:55.882353%;width:19.607843%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Silvia Rodr&#237;guez Cervantes
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-35.html" target="_self"  style="top:22.474747%;left:83.823529%;width:1.633987%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							35
+						</a>
+						<p class="textItem " style="top:24.873737%;left:55.882353%;width:11.601307%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Susana Jim&#233;nez
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-79.html" target="_self"  style="top:24.873737%;left:83.823529%;width:1.633987%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							79
+						</a>
+						<p class="textItem " style="top:29.419192%;left:6.535948%;width:14.869281%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							&#211;scar Ju&#225;rez Matute
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-49.html" target="_self"  style="top:29.419192%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							49
+						</a>
+						<p class="textItem " style="top:36.363636%;left:55.882353%;width:22.058824%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Teresita Villalobos Hern&#225;ndez
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-123.html" target="_self"  style="top:36.363636%;left:83.823529%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							123
+						</a>
+						<p class="textItem " style="top:38.636364%;left:55.882353%;width:13.071895%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							&#218;rsula Wydrzycka
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-34.html" target="_self"  style="top:38.636364%;left:83.823529%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							34
+						</a>
+						<p class="textItem " style="top:41.035354%;left:6.535948%;width:15.032680%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Patricia Alvarenga V.
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-53.html" target="_self"  style="top:41.035354%;left:33.986928%;width:1.633987%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							53
+						</a>
+						<p class="textItem " style="top:50.252525%;left:55.882353%;width:19.934641%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Ver&#243;nica Murillo Chinchilla
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-129.html" target="_self"  style="top:50.252525%;left:83.823529%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							129
+						</a>
+						<p class="textItem " style="top:52.525253%;left:6.535948%;width:18.300654%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rafael &#193;. Calder&#243;n Fallas
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-38.html" target="_self"  style="top:52.525253%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							38
+						</a>
+						<p class="textItem " style="top:52.525253%;left:55.882353%;width:13.725490%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							V&#237;ctor J. Baltodano
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-26.html" target="_self"  style="top:52.525253%;left:83.823529%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							26
+						</a>
+						<p class="textItem " style="top:54.671717%;left:6.535948%;width:15.849673%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rafael Cuevas Molina
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-147.html" target="_self"  style="top:54.671717%;left:33.986928%;width:2.287582%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							147
+						</a>
+						<p class="textItem " style="top:54.671717%;left:55.882353%;width:17.973856%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Vilma Pernudi Chavarr&#237;a
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-50.html" target="_self"  style="top:54.671717%;left:83.823529%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							50
+						</a>
+						<p class="textItem " style="top:56.818182%;left:6.535948%;width:13.562092%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rafael D&#237;az Porras
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-62.html" target="_self"  style="top:56.818182%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							62
+						</a>
+						<p class="textItem " style="top:56.818182%;left:55.882353%;width:14.215686%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Virginia Boza Araya
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-128.html" target="_self"  style="top:56.818182%;left:83.823529%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							128
+						</a>
+						<p class="textItem " style="top:56.818182%;left:86.274510%;width:0.653595%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							-
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-129.html" target="_self"  style="top:56.818182%;left:86.928105%;width:2.287582%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							129
+						</a>
+						<p class="textItem " style="top:59.090909%;left:6.535948%;width:11.601307%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rafael Land&#237;var
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-146.html" target="_self"  style="top:59.090909%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							146
+						</a>
+						<p class="textItem " style="top:59.090909%;left:55.882353%;width:17.647059%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Virginia S&#225;nchez Molina
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-16.html" target="_self"  style="top:59.090909%;left:83.823529%;width:1.633987%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							16
+						</a>
+						<p class="textItem " style="top:61.237374%;left:6.535948%;width:9.150327%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Raff Carmen
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-48.html" target="_self"  style="top:61.237374%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							48
+						</a>
+						<p class="textItem " style="top:61.237374%;left:55.882353%;width:12.254902%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Viviana N&#250;&#241;ez A.
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-120.html" target="_self"  style="top:61.237374%;left:83.823529%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							120
+						</a>
+						<p class="textItem " style="top:63.510101%;left:6.535948%;width:12.581699%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Ricardo da Costa
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-66.html" target="_self"  style="top:63.510101%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							66
+						</a>
+						<p class="textItem " style="top:65.782828%;left:6.535948%;width:15.196078%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rigoberto Rodr&#237;guez
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-26.html" target="_self"  style="top:65.782828%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							26
+						</a>
+						<p class="textItem " style="top:68.055556%;left:6.535948%;width:21.078431%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Roberto Cambronero G&#243;mez
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-182.html" target="_self"  style="top:68.055556%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							182
+						</a>
+						<p class="textItem " style="top:70.454545%;left:6.535948%;width:12.418301%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Roberto Salgado
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-126.html" target="_self"  style="top:70.454545%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							126
+						</a>
+						<p class="textItem " style="top:70.454545%;left:36.437908%;width:0.653595%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							-
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-127.html" target="_self"  style="top:70.454545%;left:37.091503%;width:2.287582%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							127
+						</a>
+						<p class="textItem " style="top:72.727273%;left:6.535948%;width:15.196078%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rodolfo Meo&#241;o Soto
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-49.html" target="_self"  style="top:72.727273%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							49
+						</a>
+						<p class="textItem " style="top:72.727273%;left:55.882353%;width:10.620915%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Wendy Uma&#241;a
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-17.html" target="_self"  style="top:72.727273%;left:83.823529%;width:1.470588%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							17
+						</a>
+						<p class="textItem " style="top:74.873737%;left:6.535948%;width:18.137255%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rodrigo Quesada Monge
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-56.html" target="_self"  style="top:74.873737%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							56-
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-149.html" target="_self"  style="top:74.873737%;left:36.274510%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							149
+						</a>
+						<p class="textItem " style="top:74.873737%;left:55.882353%;width:11.111111%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Wim Pelupessy
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-62.html" target="_self"  style="top:74.873737%;left:83.823529%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							62
+						</a>
+						<p class="textItem " style="top:77.146465%;left:6.535948%;width:9.967320%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							R&#243;ger Retana
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-126.html" target="_self"  style="top:77.146465%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							126
+						</a>
+						<p class="textItem " style="top:77.146465%;left:36.437908%;width:0.653595%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							-
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-127.html" target="_self"  style="top:77.146465%;left:37.091503%;width:2.287582%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							127
+						</a>
+						<p class="textItem " style="top:79.419192%;left:6.535948%;width:15.196078%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Ronald Rivera Alfaro
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-70.html" target="_self"  style="top:79.419192%;left:33.986928%;width:1.633987%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							70
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-72.html" target="_self"  style="top:79.419192%;left:35.620915%;width:2.124183%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							-72
+						</a>
+						<p class="textItem " style="top:81.565657%;left:6.535948%;width:22.549020%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rosa Isabel Chavarr&#237;a Fonseca
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-124.html" target="_self"  style="top:81.565657%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							124
+						</a>
+						<p class="textItem " style="top:83.964646%;left:6.535948%;width:16.503268%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rose Marie Ruiz Bravo
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-49.html" target="_self"  style="top:83.964646%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							49
+						</a>
+						<p class="textItem " style="top:86.111111%;left:6.535948%;width:11.274510%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Rosibel Morera
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-150.html" target="_self"  style="top:86.111111%;left:33.986928%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							150
+						</a>
+						<p class="textItem " style="top:86.111111%;left:36.437908%;width:0.653595%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							-
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-177.html" target="_self"  style="top:86.111111%;left:37.091503%;width:2.124183%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							177
+						</a>
+						<p class="textItem " style="top:86.111111%;left:55.882353%;width:10.947712%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Xinia Chac&#243;n A
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-130.html" target="_self"  style="top:86.111111%;left:83.823529%;width:2.450980%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							130
+						</a>
+						<p class="textItem " style="top:88.383838%;left:6.535948%;width:9.477124%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Roxana &#193;vila
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-88.html" target="_self"  style="top:88.383838%;left:33.986928%;width:1.797386%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							88
+						</a>
+						<p class="textItem " style="top:90.530303%;left:6.535948%;width:8.823529%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							Roy Zamora
+						</p>
+						<a class="linkTextItem  internalLink" href="./page-17.html" target="_self"  style="top:90.530303%;left:33.986928%;width:1.470588%;height:1.893939%;font-size:0.500000em;color:#000000;font-family:Fira Sans;">
+							17
+						</a>
+						<p class="textItem testString" style="top:5.681818%;left:6.862745%;width:6.372549%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							N
+						</p>
+						<p class="textItem " style="top:21.464646%;left:7.026144%;width:6.372549%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							O
+						</p>
+						<p class="textItem " style="top:33.080808%;left:7.679739%;width:4.901961%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							P
+						</p>
+						<p class="textItem " style="top:44.444444%;left:7.352941%;width:5.392157%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							R
+						</p>
+						<p class="textItem " style="top:5.555556%;left:56.862745%;width:4.901961%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							S
+						</p>
+						<p class="textItem " style="top:28.156566%;left:56.862745%;width:25.163399%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							T U
+						</p>
+						<p class="textItem " style="top:42.171717%;left:56.699346%;width:5.392157%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							V
+						</p>
+						<p class="textItem " style="top:64.646465%;left:55.718954%;width:7.679739%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							W
+						</p>
+						<p class="textItem " style="top:78.156566%;left:56.862745%;width:5.392157%;height:7.828283%;font-size:2.400000em;color:#FFFFFF;font-family:00452;">
+							X
+						</p>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-1.html">1</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-6.html">6</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-7.html">7</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-10.html">10</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-11.html">11</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-12.html">12</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-13.html">13</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-14.html">14</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-15.html">15</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-16.html">16</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-17.html">17</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-208.html">208</a>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+

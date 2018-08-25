@@ -1,0 +1,479 @@
+﻿
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.5, minimum-scale=0.5, user-scalable=yes, maximum-scale=2.0, target-densitydpi=device-dpi" />
+
+    <title>Cat&#225;logo 2018</title>
+
+    <meta charset="utf-8">
+
+    <meta name="robots" content="all"/>
+
+	<link href="./styles/style.css" type="text/css" rel="stylesheet" />
+	<link href="./styles/mobile.css" type="text/css" rel="stylesheet" />
+	
+    <script type="text/javascript">
+    CURRENT_PAGE = "4";
+    MAIN_PAGE     = "index.html";
+    FILES_FOLDER  = "files";
+    HTML5_PUBLICATION = false;
+
+
+    
+    </script>
+	
+	
+	<script src="./javascript/init.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        STATIC_FOLDER = ".";
+        DYNAMIC_FOLDER = "./..";
+
+        PUBLICATION_NAME = "Catálogo 2018";
+
+        CURRENT_VERSION = "2.8.29";
+
+        LANGS = ['es'];
+        PUBLICATION_TYPE = "book";
+        VIDEOS_INFO = {};
+
+    var main = function () {
+
+        loadScript('./javascript/localizator.js',function(){});
+
+        if (document.domain.indexOf('publ.com') != -1 || document.domain.indexOf('cld.bz') != -1 || document.domain.indexOf('cld.mobi') != -1 || document.domain.indexOf('cld.local') != -1) {
+            var staticServer = window.location.protocol === 'https:' ? 'https://d2ayihadozxfln.cloudfront.net' : ('http://static.' + window.location.hostname);
+            var url = staticServer + "/publication/" + CURRENT_VERSION + "/basic/cloud.js";
+            loadScript(url,function(){});
+        }
+
+    }
+
+    if (!!window.addEventListener) {
+        window.addEventListener('load', main);
+    } else {
+        window.attachEvent('onload', main);
+    }
+
+    function loadScript(url, callback){
+        var head = document.getElementsByTagName("head")[0];
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = url;
+        head.appendChild(script);
+        if (script.readyState){
+            script.onreadystatechange = function(){
+                if (script.readyState == "loaded" ||
+						script.readyState == "complete"){
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            };
+        } else {
+            script.onload = function(){
+                callback();
+            };
+        }
+    }
+    </script>
+
+
+    <style type="text/css">
+        .areaLinkItem:hover, .contentItemHover:hover, .emptyImage:hover
+        {
+            	
+	background: transparent;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#40C6FF,endColorstr=#40C6FF);
+	zoom:1;
+	
+	background:rgb(64,198,255);
+	background:rgba(64,198,255, 0.5);
+	
+
+        }
+
+
+
+    </style>
+</head>
+<body style="font-size: 20px; background-color: #ECF0F1;">
+	<div class="infoPopUp" id="infoPopUp" ></div>
+	<div class="popUp" id="popUp">
+		<a id="closeButton" class="closeButtonPopUp" href="#"></a>
+		<table class="popUpTable">
+			<tbody>
+				<tr>
+					<td>
+						<img alt="Cover" src="./../flash/pages/page0001_s.png" class="popUpCover" />
+					</td>
+					<td>
+						<h4 id="popupTitle">&nbsp;</h4>
+						<p id="popupText"></p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="toolbar">
+		<ul class="zoomContainer" id="zoomContainer">
+			<li>
+				<a class="zoomInButton" id="zoomIn" href="#">
+					<img src="styles/zoomIn.png" alt="Zoom In" />
+				</a>
+			</li>
+			<li>
+				<a class="zoomOutButton" id="zoomOut" href="#">
+					<img src="styles/zoomOut.png" alt="Zoom Out" />
+				</a>
+			</li>
+		</ul>
+
+		
+		
+		<div class="toolbarButtons">
+				<a class="tocButton toolbarLink internalLink" href="./toc.html" id="tocLink">
+					<img class="iconToolbar" src="styles/toc.png" alt="Table of Contents" />
+					<img class="iconToolbar mobile" src="styles/toc-mobile.png" alt="Table of Contents" />
+					<span id="tocLabel" class="titleTOCMenu"></span>
+				</a>
+		    
+				<ul class="downloadButton toolbarLink">
+					<li class="iconLi">
+						<img class="iconToolbar" src="styles/save.png" alt="Downloads" />
+                        <img class="iconToolbar mobile" src="styles/save-mobile.png" alt="Downloads" />
+					</li>
+						<li id="downloadPdf" class="downloadSubMenu">
+							<a id="downloadPdfLink" href="./../common/downloads/publication.pdf" target="_blank"></a>
+						</li>
+										                    					
+				</ul>
+		</div>
+
+		
+		
+
+			<a id="pagePrevArrow" class="toLeftButton toolbarLink internalLink" href="./page-3.html"><img class="iconToolbar" src="styles/previous.png" alt="Previous Page" /></a>
+        
+		<span class="pager"><span id="pageLabel"></span>&nbsp;4 / 208</span>
+
+				<a id="nextPageArrow" class="toRightButton toolbarLink internalLink" href="./page-5.html"><img class="iconToolbar" src="styles/next.png" alt="Next Page" /></a>
+
+		<ul class="sharingContainer">
+			<li>
+				<a class="facebookShare" id="facebookShare" href="#" target="_blank">
+                    <img src="styles/facebook_32.png" alt="Share on Facebook" />
+					<span id="facebookShareText" class="shareTitleMenu"></span>
+				</a>
+			</li>
+			<li>
+                <a class="twitterShare" id="twitterShare" href="#" target="_blank">
+                    <img src="styles/twitter_32.png" alt="Tweet" />
+                    <span id="twitterShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="linkedinShare" id="linkedinShare" href="#" target="_blank">
+                    <img src="styles/linkedin_32.png" alt="Share on LinkedIn" />
+                    <span id="linkedinShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="tumblrShare" id="tumblrShare" href="#" target="_blank">
+                    <img src="styles/tumblr_32.png" alt="Share on Tumblr" />
+                    <span id="tumblrShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="googleShare" id="googleShare" href="#" target="_blank">
+                    <img src="styles/google_32.png" alt="Share on Google+" />
+                    <span id="googleShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="mailShare" id="mailShare" href="#" target="_blank">
+                    <img src="styles/email_32.png" alt="E-mail" />
+                    <span id="mailShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+			<li>
+                <a class="vkShare" id="vkShare" href="#" target="_blank">
+                    <img src="styles/vk_32.png" alt="Share on VK" />
+                    <span id="vkShareText" class="shareTitleMenu"></span>
+                </a>
+			</li>
+		</ul>
+
+
+		<div class="verContainer" id="verContainer">
+			<span id="basicVersionTitle" class="basicInfoTitle"></span>
+			<a id="infoButton" class="toolbarLink info" href="#"><img class="iconInfo" src="styles/info.png" alt="Information" /></a>
+
+		</div>
+	</div>
+
+	<div class="mainFrame" id="mainFrame">
+
+		<a class="mobileMenuButton" id="mobileMenuButton">
+            <img src="styles/mobile-menu.png" alt="Show Menu" style="" />
+		</a>
+
+		<div class="mobileNav">
+					<a class="toLeftButton toolbarLink internalLink" href="./page-3.html"><img class="iconToolbar" src="styles/prev-mob.png" alt="Previous Page" /></a>
+			<span class="pager">4 / 208</span>
+					<a class="toRightButton toolbarLink internalLink" href="./page-5.html"><img class="iconToolbar" src="styles/next-mob.png" alt="Next Page" /></a>
+		</div>
+
+		<div id="pageContainer" class="pageContainer" style="width: 612px; height: 792px; margin: 40px 0 0 -306px; background-color:#FFFFFF;">
+			<img alt="Page Background" src="./../common/page-substrates/page0004.png" style="width: 100%; height: 100%;">
+
+
+						<p class="textItem testString" style="top:95.202020%;left:51.960784%;width:2.614379%;height:2.272727%;font-size:0.600000em;color:#FFFFFF;font-family:Fira Sans;">
+							<i>-4-</i>
+						</p>
+						<a class="linkTextItem testString internalLink" href="./page-24.html" target="_self"  style="top:9.595960%;left:10.784314%;width:46.568627%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Contabilidad de costos: una forma de ordenar el proceso
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-24.html" target="_self"  style="top:9.595960%;left:91.993464%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							24
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-23.html" target="_self"  style="top:11.868687%;left:10.784314%;width:53.594771%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Contabilidad General: Generalidades, conceptos y casos pr&#225;cticos
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-23.html" target="_self"  style="top:11.868687%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							23
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-155.html" target="_self"  style="top:14.141414%;left:10.784314%;width:15.032680%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Cosas de hombres
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-155.html" target="_self"  style="top:14.141414%;left:91.176471%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							155
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-106.html" target="_self"  style="top:16.414141%;left:10.784314%;width:30.065359%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Costa Rica en los inicios del siglo XXI
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-106.html" target="_self"  style="top:16.414141%;left:91.013072%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							106
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-63.html" target="_self"  style="top:18.813131%;left:10.784314%;width:65.359477%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Crisis, espacio y aprendizaje social: la cuesti&#243;n regional en el capitalismo global
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-63.html" target="_self"  style="top:18.813131%;left:91.993464%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							63
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-70.html" target="_self"  style="top:21.085859%;left:10.784314%;width:46.895425%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Cr&#237;tica al discurso de la paz en la regi&#243;n centroamericana
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-70.html" target="_self"  style="top:21.085859%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							70
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-192.html" target="_self"  style="top:23.358586%;left:10.784314%;width:20.261438%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Cuentos Bioluminicentes
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-192.html" target="_self"  style="top:23.358586%;left:91.176471%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							192
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-160.html" target="_self"  style="top:25.757576%;left:10.784314%;width:16.830065%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Cuentos de la Bonga
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-160.html" target="_self"  style="top:25.757576%;left:91.013072%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							160
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-180.html" target="_self"  style="top:28.030303%;left:10.784314%;width:21.241830%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Cuentos para no perderse
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-180.html" target="_self"  style="top:28.030303%;left:91.013072%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							180
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-158.html" target="_self"  style="top:30.303030%;left:10.784314%;width:23.692810%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Cuentos y relatos del camino
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-158.html" target="_self"  style="top:30.303030%;left:91.176471%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							158
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-148.html" target="_self"  style="top:32.575758%;left:10.784314%;width:5.718954%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Culpeo
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-148.html" target="_self"  style="top:32.575758%;left:91.013072%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							148
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-18.html" target="_self"  style="top:34.974747%;left:10.784314%;width:31.045752%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Curso de L&#243;gica y Teor&#237;a de Conjuntos
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-18.html" target="_self"  style="top:34.974747%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							18
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-140.html" target="_self"  style="top:37.247475%;left:10.784314%;width:23.529412%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							De mi vida (Tomo I y Tomo II)
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-140.html" target="_self"  style="top:37.247475%;left:91.013072%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							140
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-97.html" target="_self"  style="top:39.520202%;left:10.784314%;width:58.169935%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							De Odiseo a Obama masculinidad hegem&#243;nica y relaciones asim&#233;tricas
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-97.html" target="_self"  style="top:39.520202%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							97
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-53.html" target="_self"  style="top:41.919192%;left:10.784314%;width:20.261438%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							De vecinos a ciudadanos
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-53.html" target="_self"  style="top:41.919192%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							53
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-60.html" target="_self"  style="top:44.191919%;left:10.784314%;width:41.993464%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Desarrollo sostenible y experiencias costarricenses
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-60.html" target="_self"  style="top:44.191919%;left:91.830065%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							60
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-124.html" target="_self"  style="top:46.464646%;left:10.784314%;width:65.686275%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Diccionario biling&#252;e del Espa&#241;ol de Costa Rica: un acercamiento socioling&#252;&#237;stico
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-124.html" target="_self"  style="top:48.106061%;left:10.784314%;width:23.856209%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							a la forma de hablar los ticos
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-124.html" target="_self"  style="top:47.348485%;left:91.176471%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							124
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-141.html" target="_self"  style="top:50.505051%;left:10.784314%;width:36.274510%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Diccionario de la literatura centroamericana
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-141.html" target="_self"  style="top:50.505051%;left:91.339869%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							141
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-130.html" target="_self"  style="top:52.777778%;left:10.784314%;width:38.562092%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Discovering the Author’s Mind through Reading
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-130.html" target="_self"  style="top:52.777778%;left:91.013072%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							130
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-88.html" target="_self"  style="top:55.050505%;left:10.784314%;width:17.483660%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							Dramaturgia invisible
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-88.html" target="_self"  style="top:55.050505%;left:91.830065%;width:2.124183%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							88
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-178.html" target="_self"  style="top:57.323232%;left:10.784314%;width:35.620915%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El abismo asoma en un bosque de palabras
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-178.html" target="_self"  style="top:57.323232%;left:91.176471%;width:2.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							178
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-113.html" target="_self"  style="top:59.722222%;left:10.784314%;width:17.320261%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El &#225;lbum de Figueroa
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-113.html" target="_self"  style="top:59.722222%;left:91.339869%;width:2.450980%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							113
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-83.html" target="_self"  style="top:61.994949%;left:10.784314%;width:31.045752%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El &#225;rbol del bien y el mal (tomos I y II)
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-83.html" target="_self"  style="top:61.994949%;left:91.830065%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							83
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-149.html" target="_self"  style="top:64.267677%;left:10.784314%;width:16.830065%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El archivo de Vesalio
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-149.html" target="_self"  style="top:64.267677%;left:91.013072%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							149
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-121.html" target="_self"  style="top:66.666667%;left:10.784314%;width:14.542484%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El arte de escribir
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-121.html" target="_self"  style="top:66.666667%;left:91.339869%;width:2.450980%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							121
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-76.html" target="_self"  style="top:68.939394%;left:10.784314%;width:70.261438%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El derecho a la educaci&#243;n y las edades m&#237;nimas de protecci&#243;n legal en Centroam&#233;rica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-76.html" target="_self"  style="top:68.939394%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							76
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-55.html" target="_self"  style="top:71.212121%;left:10.784314%;width:57.026144%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El despertar de la ciudadan&#237;a. Ideololog&#237;a del miedo y la cultura de la
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-55.html" target="_self"  style="top:72.853535%;left:10.784314%;width:21.405229%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							no violencia en Costa Rica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-55.html" target="_self"  style="top:72.095960%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							55
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-35.html" target="_self"  style="top:75.252525%;left:10.784314%;width:75.163399%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El despojo de la riqueza biol&#243;gica: de patrimonio de la humanidad a recurso bajo soberan&#237;a
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-35.html" target="_self"  style="top:75.252525%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							35
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-78.html" target="_self"  style="top:77.525253%;left:10.784314%;width:68.627451%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El dise&#241;o curricular en los planes de estudio: aspectos te&#243;ricos y gu&#237;a metodol&#243;gica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-78.html" target="_self"  style="top:77.525253%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							78
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-120.html" target="_self"  style="top:79.797980%;left:10.784314%;width:69.281046%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El Espa&#241;ol de Centroam&#233;rica. Visi&#243;n global y materiales para su estudio (Tomos I y II)
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-120.html" target="_self"  style="top:79.797980%;left:91.176471%;width:2.777778%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							120
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-80.html" target="_self"  style="top:82.070707%;left:10.784314%;width:61.764706%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El estudiante con discapacidad. Orientaciones pedag&#243;gicas para el docente
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-80.html" target="_self"  style="top:82.070707%;left:91.830065%;width:2.124183%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							80
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-90.html" target="_self"  style="top:84.469697%;left:10.784314%;width:27.614379%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El fin de la teleserie en Costa Rica
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-90.html" target="_self"  style="top:84.469697%;left:91.830065%;width:1.960784%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							90
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-91.html" target="_self"  style="top:86.742424%;left:10.784314%;width:61.764706%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							El gui&#243;n como profec&#237;a: Narratividad Audiovisual: Relatos y discursos en los
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-91.html" target="_self"  style="top:88.383838%;left:10.784314%;width:20.915033%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							textos para audiovisuales
+						</a>
+						<a class="linkTextItem  internalLink" href="./page-91.html" target="_self"  style="top:87.626263%;left:91.993464%;width:1.797386%;height:2.146465%;font-size:0.550000em;color:#000000;font-family:Fira Sans;">
+							91
+						</a>
+		</div>
+
+		<div class="footer">
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-1.html">1</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-2.html">2</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-3.html">3</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink currPage" href="./page-4.html">4</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-5.html">5</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-6.html">6</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-7.html">7</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-8.html">8</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-9.html">9</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-10.html">10</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-11.html">11</a>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink " href="./page-12.html">12</a>
+						<span style="color:#3E3E43;" class="footerNavLink">&#8230;</span>
+					<a style="color:#3E3E43;" class="footerNavLink internalLink" href="./page-208.html">208</a>
+
+		</div>
+	</div>
+	<script type="text/javascript">
+	        if (typeof BASIC_PAGE === 'undefined' && typeof BasicPage !== 'undefined' ){
+	            BASIC_PAGE = new BasicPage();
+	        }
+	        GALLERY_CONTENT = {};
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
